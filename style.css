@@ -1,0 +1,57 @@
+.happy img {
+  transition: all 1s;
+}
+/* .happy img:hover {
+  transform: translateX(40px);
+} */
+
+.motions {
+  position: relative;
+}
+
+.H {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  visibility: hidden;
+  z-index: -1;
+  color: green;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  transition: all 1s;
+  letter-spacing: 3px;
+}
+
+.happy {
+  border: 2px solid black;
+  transition: all 1s;
+}
+
+.happy:hover .H {
+  visibility: visible;
+  top: -30px;
+}
+
+/* Not happy Effects */
+.noHappy {
+  border: 2px solid black;
+  transition: all 1s;
+}
+
+.N {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  visibility: hidden;
+  z-index: -1;
+  font-size: 20px;
+  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  transition: all 1s;
+  letter-spacing: 3px;
+}
+
+.noHappy:hover .N {
+  visibility: visible;
+  top: -30px;
+}
